@@ -152,7 +152,7 @@ actual=testdf[outcome_var].tolist()
 
 
 def PREDICTION(val):
-    Sal=10*Rgr.predict(val)
+    Sal=Rgr.predict(val)
     return Sal
 
 
